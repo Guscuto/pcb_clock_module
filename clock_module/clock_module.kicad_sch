@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4de3e3ed-2822-4416-9171-238a17da9aab")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 65.405 65.405)
+		(size 20.32 18.415)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2282c138-a259-4467-8444-4ece6072dc49")
+		(property "Sheetname" "Power Supply"
+			(at 65.405 64.6934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 65.405 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "clock_module"
+				(path "/4de3e3ed-2822-4416-9171-238a17da9aab"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.775 65.405)
+		(size 20.32 18.415)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ffbcc35-e20b-4e45-9fa0-de4c27467751")
+		(property "Sheetname" "Main Circuit"
+			(at 104.775 64.6934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Main Circuit.kicad_sch"
+			(at 104.775 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "clock_module"
+				(path "/4de3e3ed-2822-4416-9171-238a17da9aab"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
