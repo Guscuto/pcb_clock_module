@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "4de3e3ed-2822-4416-9171-238a17da9aab")
 	(paper "A4")
+	(title_block
+		(title "Clock Module")
+		(date "2026-05-26")
+		(rev "Gustavo C. S.")
+	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole"
 			(pin_names

@@ -2912,6 +2912,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7519"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb013c38-e071-451c-95f2-c42acc727c97")
 		)
